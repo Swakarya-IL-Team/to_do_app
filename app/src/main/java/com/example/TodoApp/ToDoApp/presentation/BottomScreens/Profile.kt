@@ -263,7 +263,7 @@ fun Profile(navController: NavController, context: Context) {
                 horizontalArrangement = Arrangement.Center
             ) {
                 Button(onClick = {
-                   showDeleteDialog = !showDeleteDialog
+                    showDeleteDialog = !showDeleteDialog
                 })
                 {
                     Text(text = "Delete Account")
