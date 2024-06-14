@@ -61,8 +61,6 @@ import com.google.firebase.auth.UserProfileChangeRequest
 @Composable
 fun SignupScreen(navController: NavController, context: Context) {
 
-<<<<<<< HEAD
-=======
 
     val backDispatcher = LocalOnBackPressedDispatcherOwner.current?.onBackPressedDispatcher
 
@@ -481,5 +479,4 @@ private fun performSignup(
                 ).show()
             }
         }
->>>>>>> loginsignup_denisa
 }

@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -49,8 +50,6 @@ import com.google.firebase.auth.FirebaseAuth
 @Composable
 fun LoginScreen(navController: NavController) {
 
-<<<<<<< HEAD
-=======
 
     val context = LocalContext.current
 
@@ -100,6 +99,9 @@ fun LoginScreen(navController: NavController) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
+            Box {
+                AnimatedPreloader(modifier = Modifier.size(200.dp).align(Alignment.Center))
+            }
             Image(
                 painter = painterResource(id = R.drawable.laki_perempuan),
                 contentDescription = null
@@ -316,5 +318,4 @@ private fun sendVerification(
             ).show()
         }
     }
->>>>>>> loginsignup_denisa
 }
