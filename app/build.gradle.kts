@@ -73,6 +73,7 @@ dependencies {
 
     implementation("io.coil-kt:coil-compose:2.5.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation(libs.androidx.navigation.runtime.ktx)
     kapt ("com.github.bumptech.glide:compiler:4.16.0")
     implementation ("me.saket.swipe:swipe:1.2.0")
 

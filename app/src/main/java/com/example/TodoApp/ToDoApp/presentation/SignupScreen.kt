@@ -1,5 +1,3 @@
-@file:Suppress("DEPRECATION")
-
 package com.example.TodoApp.ToDoApp.presentation
 
 import android.app.Activity
